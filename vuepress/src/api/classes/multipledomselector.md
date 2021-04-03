@@ -59,7 +59,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<S\>
 
-Defined in: selector/MultipleDomSelector.ts:38
+Defined in: [selector/MultipleDomSelector.ts:38](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L38)
 
 ## Properties
 
@@ -67,7 +67,7 @@ Defined in: selector/MultipleDomSelector.ts:38
 
 • **parentElementSpec**: [*IdentityDomSelector*](identitydomselector.md) \| [*SingleDomSelector*](singledomselector.md) \| [*MultipleDomSelector*](multipledomselector.md)<[*DecrementNest*](../types/decrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:30
+Defined in: [selector/MultipleDomSelector.ts:30](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L30)
 
 ___
 
@@ -75,7 +75,7 @@ ___
 
 • **prevElementSpec**: [*IdentityDomSelector*](identitydomselector.md) \| [*SingleDomSelector*](singledomselector.md) \| [*MultipleDomSelector*](multipledomselector.md)<[*DecrementNest*](../types/decrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:34
+Defined in: [selector/MultipleDomSelector.ts:34](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L34)
 
 ___
 
@@ -83,7 +83,7 @@ ___
 
 • **takeFn**: [*TakeFunction*](../types/takefunction.md)<[*TakeFunctionReturnType*](../types/takefunctionreturntype.md)\>
 
-Defined in: selector/MultipleDomSelector.ts:38
+Defined in: [selector/MultipleDomSelector.ts:38](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L38)
 
 ___
 
@@ -91,7 +91,7 @@ ___
 
 • **whereQuery**: [*SelectQuery*](../types/selectquery.md)
 
-Defined in: selector/MultipleDomSelector.ts:29
+Defined in: [selector/MultipleDomSelector.ts:29](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L29)
 
 ## Methods
 
@@ -107,7 +107,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*IncrementNest*](../types/incrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:101
+Defined in: [selector/MultipleDomSelector.ts:101](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L101)
 
 ___
 
@@ -130,7 +130,7 @@ Name | Type |
 
 **Returns:** (`parent`: [*DomNode*](domnode.md)) => [*NestMapType*](../types/nestmaptype.md)<[*DomNode*](domnode.md), S, T\>
 
-Defined in: selector/MultipleDomSelector.ts:240
+Defined in: [selector/MultipleDomSelector.ts:240](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L240)
 
 ___
 
@@ -152,7 +152,7 @@ Name | Type |
 
 **Returns:** (`parent`: [*DomNode*](domnode.md)) => [*NestMapType*](../types/nestmaptype.md)<[*DomNode*](domnode.md), S, T\>
 
-Defined in: selector/MultipleDomSelector.ts:275
+Defined in: [selector/MultipleDomSelector.ts:275](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L275)
 
 ___
 
@@ -174,7 +174,7 @@ Name | Type |
 
 **Returns:** (`parent`: [*DomNode*](domnode.md)) => [*NestMapType*](../types/nestmaptype.md)<[*DomNode*](domnode.md), S, T\>
 
-Defined in: selector/MultipleDomSelector.ts:260
+Defined in: [selector/MultipleDomSelector.ts:260](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L260)
 
 ___
 
@@ -184,7 +184,7 @@ ___
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<S\>
 
-Defined in: selector/MultipleDomSelector.ts:44
+Defined in: [selector/MultipleDomSelector.ts:44](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L44)
 
 ___
 
@@ -194,7 +194,7 @@ ___
 
 **Returns:** (`body`: [*DomNode*](domnode.md)) => [*NestArray*](../types/nestarray.md)<[*TakeFunctionReturnType*](../types/takefunctionreturntype.md)\>
 
-Defined in: selector/MultipleDomSelector.ts:125
+Defined in: [selector/MultipleDomSelector.ts:125](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L125)
 
 ___
 
@@ -210,7 +210,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*IncrementNest*](../types/incrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:113
+Defined in: [selector/MultipleDomSelector.ts:113](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L113)
 
 ___
 
@@ -226,7 +226,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<S\>
 
-Defined in: selector/MultipleDomSelector.ts:50
+Defined in: [selector/MultipleDomSelector.ts:50](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L50)
 
 ___
 
@@ -242,7 +242,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*IncrementNest*](../types/incrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:91
+Defined in: [selector/MultipleDomSelector.ts:91](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L91)
 
 ___
 
@@ -258,7 +258,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*IncrementNest*](../types/incrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:75
+Defined in: [selector/MultipleDomSelector.ts:75](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L75)
 
 ___
 
@@ -275,7 +275,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*IncrementNest*](../types/incrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:64
+Defined in: [selector/MultipleDomSelector.ts:64](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L64)
 
 ___
 
@@ -291,7 +291,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*IncrementNest*](../types/incrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:83
+Defined in: [selector/MultipleDomSelector.ts:83](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L83)
 
 ___
 
@@ -301,4 +301,4 @@ ___
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*IncrementNest*](../types/incrementnest.md)<[*DomNode*](domnode.md), S\>\>
 
-Defined in: selector/MultipleDomSelector.ts:56
+Defined in: [selector/MultipleDomSelector.ts:56](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MultipleDomSelector.ts#L56)

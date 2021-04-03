@@ -14,4 +14,4 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: query/WhereQuery.ts:81
+Defined in: [query/WhereQuery.ts:81](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/WhereQuery.ts#L81)

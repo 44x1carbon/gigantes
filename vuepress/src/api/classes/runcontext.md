@@ -32,7 +32,7 @@ Name | Type |
 
 **Returns:** [*RunContext*](runcontext.md)
 
-Defined in: RunContext.ts:6
+Defined in: [RunContext.ts:6](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/RunContext.ts#L6)
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: RunContext.ts:6
 
 • `Private` **url**: *string*
 
-Defined in: RunContext.ts:6
+Defined in: [RunContext.ts:6](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/RunContext.ts#L6)
 
 ## Methods
 
@@ -62,4 +62,4 @@ Name | Type |
 
 **Returns:** T
 
-Defined in: RunContext.ts:12
+Defined in: [RunContext.ts:12](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/RunContext.ts#L12)

@@ -14,4 +14,4 @@ Name | Type |
 
 **Returns:** [*TakeFunction*](../types/takefunction.md)<[*DomNode*](../classes/domnode.md)[]\>
 
-Defined in: selector/TakeFunction.ts:31
+Defined in: [selector/TakeFunction.ts:31](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/TakeFunction.ts#L31)

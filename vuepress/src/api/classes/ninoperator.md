@@ -39,7 +39,7 @@ Name | Type |
 
 **Returns:** [*NInOperator*](ninoperator.md)
 
-Defined in: query/Operator.ts:177
+Defined in: [query/Operator.ts:177](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L177)
 
 ## Properties
 
@@ -47,7 +47,7 @@ Defined in: query/Operator.ts:177
 
 • **attributeKey**: *string*
 
-Defined in: query/Operator.ts:176
+Defined in: [query/Operator.ts:176](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L176)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **values**: *string*[]
 
-Defined in: query/Operator.ts:177
+Defined in: [query/Operator.ts:177](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L177)
 
 ## Methods
 
@@ -73,7 +73,7 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: query/Operator.ts:187
+Defined in: [query/Operator.ts:187](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L187)
 
 ___
 
@@ -91,4 +91,4 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: query/Operator.ts:183
+Defined in: [query/Operator.ts:183](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L183)

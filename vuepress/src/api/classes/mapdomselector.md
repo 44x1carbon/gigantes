@@ -50,7 +50,7 @@ Name | Type |
 
 **Returns:** [*MapDomSelector*](mapdomselector.md)<RT, T, R\>
 
-Defined in: selector/MapDomSelector.ts:22
+Defined in: [selector/MapDomSelector.ts:22](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MapDomSelector.ts#L22)
 
 ## Properties
 
@@ -70,9 +70,9 @@ Name | Type |
 
 **Returns:** R
 
-Defined in: selector/MapDomSelector.ts:21
+Defined in: [selector/MapDomSelector.ts:21](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MapDomSelector.ts#L21)
 
-Defined in: selector/MapDomSelector.ts:21
+Defined in: [selector/MapDomSelector.ts:21](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MapDomSelector.ts#L21)
 
 ___
 
@@ -80,7 +80,7 @@ ___
 
 • **parent**: [*MapDomSelector*](mapdomselector.md)<RT, any, T\>
 
-Defined in: selector/MapDomSelector.ts:22
+Defined in: [selector/MapDomSelector.ts:22](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MapDomSelector.ts#L22)
 
 ## Methods
 
@@ -96,7 +96,7 @@ Name | Type |
 
 **Returns:** R
 
-Defined in: selector/MapDomSelector.ts:28
+Defined in: [selector/MapDomSelector.ts:28](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MapDomSelector.ts#L28)
 
 ___
 
@@ -118,4 +118,4 @@ Name | Type |
 
 **Returns:** [*MapDomSelector*](mapdomselector.md)<RT, R, R2\>
 
-Defined in: selector/MapDomSelector.ts:35
+Defined in: [selector/MapDomSelector.ts:35](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/MapDomSelector.ts#L35)

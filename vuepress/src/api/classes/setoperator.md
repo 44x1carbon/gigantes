@@ -45,7 +45,7 @@ title: "Class: SetOperator"
 
 • **operators**: [*Operator*](../interfaces/operator.md)[]
 
-Defined in: query/Operator.ts:20
+Defined in: [query/Operator.ts:20](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L20)
 
 ## Methods
 
@@ -63,7 +63,7 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: query/Operator.ts:26
+Defined in: [query/Operator.ts:26](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L26)
 
 ___
 
@@ -81,4 +81,4 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: query/Operator.ts:22
+Defined in: [query/Operator.ts:22](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L22)

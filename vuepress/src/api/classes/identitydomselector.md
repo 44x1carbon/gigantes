@@ -38,7 +38,7 @@ Name | Type |
 
 **Returns:** [*IdentityDomSelector*](identitydomselector.md)
 
-Defined in: selector/IdentityDomSelector.ts:10
+Defined in: [selector/IdentityDomSelector.ts:10](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L10)
 
 ## Properties
 
@@ -46,7 +46,7 @@ Defined in: selector/IdentityDomSelector.ts:10
 
 • `Private` **domNode**: [*DomNode*](domnode.md)
 
-Defined in: selector/IdentityDomSelector.ts:8
+Defined in: [selector/IdentityDomSelector.ts:8](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L8)
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 • **takeFn**: [*TakeFunction*](../types/takefunction.md)<[*DomNode*](domnode.md)\>
 
-Defined in: selector/IdentityDomSelector.ts:10
+Defined in: [selector/IdentityDomSelector.ts:10](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L10)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **whereQuery**: [*SelectQuery*](../types/selectquery.md)
 
-Defined in: selector/IdentityDomSelector.ts:9
+Defined in: [selector/IdentityDomSelector.ts:9](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L9)
 
 ## Methods
 
@@ -78,7 +78,7 @@ Name | Type |
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: selector/IdentityDomSelector.ts:20
+Defined in: [selector/IdentityDomSelector.ts:20](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L20)
 
 ___
 
@@ -101,7 +101,7 @@ Name | Type |
 
 **Returns:** (`parent`: [*DomNode*](domnode.md)) => T
 
-Defined in: selector/IdentityDomSelector.ts:32
+Defined in: [selector/IdentityDomSelector.ts:32](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L32)
 
 ___
 
@@ -123,7 +123,7 @@ Name | Type |
 
 **Returns:** (`parent`: [*DomNode*](domnode.md)) => T
 
-Defined in: selector/IdentityDomSelector.ts:46
+Defined in: [selector/IdentityDomSelector.ts:46](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L46)
 
 ___
 
@@ -133,7 +133,7 @@ ___
 
 **Returns:** (`body`: [*DomNode*](domnode.md)) => [*DomNode*](domnode.md)
 
-Defined in: selector/IdentityDomSelector.ts:16
+Defined in: [selector/IdentityDomSelector.ts:16](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L16)
 
 ___
 
@@ -149,4 +149,4 @@ Name | Type |
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: selector/IdentityDomSelector.ts:26
+Defined in: [selector/IdentityDomSelector.ts:26](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/IdentityDomSelector.ts#L26)

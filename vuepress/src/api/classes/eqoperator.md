@@ -39,7 +39,7 @@ Name | Type |
 
 **Returns:** [*EqOperator*](eqoperator.md)
 
-Defined in: query/Operator.ts:45
+Defined in: [query/Operator.ts:45](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L45)
 
 ## Properties
 
@@ -47,7 +47,7 @@ Defined in: query/Operator.ts:45
 
 • **attributeKey**: *string*
 
-Defined in: query/Operator.ts:44
+Defined in: [query/Operator.ts:44](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L44)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **value**: *string*
 
-Defined in: query/Operator.ts:45
+Defined in: [query/Operator.ts:45](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L45)
 
 ## Methods
 
@@ -73,7 +73,7 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: query/Operator.ts:71
+Defined in: [query/Operator.ts:71](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L71)
 
 ___
 
@@ -91,4 +91,4 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: query/Operator.ts:51
+Defined in: [query/Operator.ts:51](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L51)

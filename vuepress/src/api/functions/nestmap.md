@@ -23,4 +23,4 @@ Name | Type |
 
 **Returns:** [*NestMapType*](../types/nestmaptype.md)<T, N, R\>
 
-Defined in: NestArray.ts:65
+Defined in: [NestArray.ts:65](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/NestArray.ts#L65)

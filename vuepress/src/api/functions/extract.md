@@ -21,4 +21,4 @@ Name | Type |
 
 **Returns:** T
 
-Defined in: extract/ExtractOption.ts:7
+Defined in: [extract/ExtractOption.ts:7](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/extract/ExtractOption.ts#L7)

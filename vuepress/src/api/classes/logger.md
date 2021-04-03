@@ -40,7 +40,7 @@ Name | Type |
 
 **Returns:** [*Logger*](logger.md)
 
-Defined in: util/logger/Logger.ts:5
+Defined in: [util/logger/Logger.ts:5](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L5)
 
 ## Properties
 
@@ -48,7 +48,7 @@ Defined in: util/logger/Logger.ts:5
 
 • **config**: [*LoggerConfig*](../types/loggerconfig.md)
 
-Defined in: util/logger/Logger.ts:5
+Defined in: [util/logger/Logger.ts:5](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L5)
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **id**: *string*
 
-Defined in: util/logger/Logger.ts:4
+Defined in: [util/logger/Logger.ts:4](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L4)
 
 ## Methods
 
@@ -72,7 +72,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: util/logger/Logger.ts:27
+Defined in: [util/logger/Logger.ts:27](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L27)
 
 ___
 
@@ -88,7 +88,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: util/logger/Logger.ts:42
+Defined in: [util/logger/Logger.ts:42](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L42)
 
 ___
 
@@ -104,7 +104,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: util/logger/Logger.ts:32
+Defined in: [util/logger/Logger.ts:32](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L32)
 
 ___
 
@@ -120,7 +120,7 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: util/logger/Logger.ts:12
+Defined in: [util/logger/Logger.ts:12](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L12)
 
 ___
 
@@ -136,7 +136,7 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: util/logger/Logger.ts:18
+Defined in: [util/logger/Logger.ts:18](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L18)
 
 ___
 
@@ -152,7 +152,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: util/logger/Logger.ts:22
+Defined in: [util/logger/Logger.ts:22](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L22)
 
 ___
 
@@ -168,4 +168,4 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: util/logger/Logger.ts:37
+Defined in: [util/logger/Logger.ts:37](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/Logger.ts#L37)

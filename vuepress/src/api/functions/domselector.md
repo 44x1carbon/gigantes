@@ -14,4 +14,4 @@ Name | Type |
 
 **Returns:** [*RootDomSelector*](../classes/rootdomselector.md)
 
-Defined in: selector/DomSelector.ts:6
+Defined in: [selector/DomSelector.ts:6](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/DomSelector.ts#L6)
