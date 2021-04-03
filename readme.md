@@ -10,9 +10,9 @@ npm install gigantes
 
 ## Documentation
 
-## Usage
-
 visit [https://44x1carbon.github.io/gigantes/](https://44x1carbon.github.io/gigantes/)
+
+## Usage
 
 ```typescript
 const h1Selector = domSelector({
