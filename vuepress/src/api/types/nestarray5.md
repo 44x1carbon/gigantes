@@ -12,4 +12,4 @@ Name |
 :------ |
 `T` |
 
-Defined in: [NestArray.ts:6](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/NestArray.ts#L6)
+Defined in: [NestArray.ts:6](https://github.com/44x1carbon/gigantes/blob/2721068/src/NestArray.ts#L6)

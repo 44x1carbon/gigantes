@@ -37,7 +37,7 @@ title: "Class: SingleOperator"
 
 • **operator**: [*Operator*](../interfaces/operator.md)
 
-Defined in: [query/Operator.ts:9](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L9)
+Defined in: [query/Operator.ts:9](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L9)
 
 ## Methods
 
@@ -55,7 +55,7 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: [query/Operator.ts:14](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L14)
+Defined in: [query/Operator.ts:14](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L14)
 
 ___
 
@@ -73,4 +73,4 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: [query/Operator.ts:11](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L11)
+Defined in: [query/Operator.ts:11](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L11)

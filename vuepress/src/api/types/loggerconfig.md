@@ -8,4 +8,4 @@ title: "Type alias: LoggerConfig"
 
 #### Type declaration:
 
-Defined in: [util/logger/LoggerFactory.ts:12](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/LoggerFactory.ts#L12)
+Defined in: [util/logger/LoggerFactory.ts:12](https://github.com/44x1carbon/gigantes/blob/2721068/src/util/logger/LoggerFactory.ts#L12)

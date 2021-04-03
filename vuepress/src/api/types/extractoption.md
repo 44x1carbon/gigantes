@@ -12,4 +12,4 @@ Name |
 :------ |
 `T` |
 
-Defined in: [extract/ExtractOption.ts:3](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/extract/ExtractOption.ts#L3)
+Defined in: [extract/ExtractOption.ts:3](https://github.com/44x1carbon/gigantes/blob/2721068/src/extract/ExtractOption.ts#L3)

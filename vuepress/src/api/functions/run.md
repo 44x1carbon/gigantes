@@ -14,4 +14,4 @@ Name | Type |
 
 **Returns:** [*RunContext*](../classes/runcontext.md)
 
-Defined in: [RunContext.ts:20](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/RunContext.ts#L20)
+Defined in: [RunContext.ts:20](https://github.com/44x1carbon/gigantes/blob/2721068/src/RunContext.ts#L20)

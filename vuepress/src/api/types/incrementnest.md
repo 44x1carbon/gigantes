@@ -13,4 +13,4 @@ Name | Type |
 `T` | - |
 `N` | [*NestArray*](nestarray.md)<T\> |
 
-Defined in: [NestArray.ts:34](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/NestArray.ts#L34)
+Defined in: [NestArray.ts:34](https://github.com/44x1carbon/gigantes/blob/2721068/src/NestArray.ts#L34)

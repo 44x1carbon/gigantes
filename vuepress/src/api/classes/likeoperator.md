@@ -39,7 +39,7 @@ Name | Type |
 
 **Returns:** [*LikeOperator*](likeoperator.md)
 
-Defined in: [query/Operator.ts:95](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L95)
+Defined in: [query/Operator.ts:95](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L95)
 
 ## Properties
 
@@ -47,7 +47,7 @@ Defined in: [query/Operator.ts:95](https://github.com/44x1carbon/gigantes/blob/8
 
 • **attributeKey**: *string*
 
-Defined in: [query/Operator.ts:94](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L94)
+Defined in: [query/Operator.ts:94](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L94)
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **value**: *string*
 
-Defined in: [query/Operator.ts:95](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L95)
+Defined in: [query/Operator.ts:95](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L95)
 
 ## Methods
 
@@ -73,7 +73,7 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: [query/Operator.ts:120](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L120)
+Defined in: [query/Operator.ts:120](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L120)
 
 ___
 
@@ -91,4 +91,4 @@ Name | Type |
 
 Implementation of: [Operator](../interfaces/operator.md)
 
-Defined in: [query/Operator.ts:101](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L101)
+Defined in: [query/Operator.ts:101](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L101)

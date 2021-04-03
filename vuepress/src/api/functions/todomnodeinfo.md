@@ -20,4 +20,4 @@ Name | Type |
 `tagName` | *string* |
 `text` | *string* |
 
-Defined in: [util/debug.ts:3](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/debug.ts#L3)
+Defined in: [util/debug.ts:3](https://github.com/44x1carbon/gigantes/blob/2721068/src/util/debug.ts#L3)

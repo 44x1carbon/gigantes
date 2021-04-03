@@ -50,7 +50,7 @@ module.exports = {
       "/": {
         nav: [
           { text: "ガイド", link: "/guide/" },
-          { text: "API", link: "/api/" },
+          // { text: "API", link: "/api/" },
         ],
         sidebar: {
           "/": [
@@ -82,7 +82,7 @@ module.exports = {
       "/en/": {
         nav: [
           { text: "Guide", link: "/en/guide/" },
-          { text: "API", link: "/api/" },
+          // { text: "API", link: "/api/" },
         ],
         sidebar: {
           "/en/": [

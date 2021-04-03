@@ -32,7 +32,7 @@ Name | Type |
 
 **Returns:** [*\_LoggerFactory*](_loggerfactory.md)
 
-Defined in: [util/logger/LoggerFactory.ts:17](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/LoggerFactory.ts#L17)
+Defined in: [util/logger/LoggerFactory.ts:17](https://github.com/44x1carbon/gigantes/blob/2721068/src/util/logger/LoggerFactory.ts#L17)
 
 ## Properties
 
@@ -40,7 +40,7 @@ Defined in: [util/logger/LoggerFactory.ts:17](https://github.com/44x1carbon/giga
 
 • **config**: [*LoggerConfig*](../types/loggerconfig.md)
 
-Defined in: [util/logger/LoggerFactory.ts:17](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/LoggerFactory.ts#L17)
+Defined in: [util/logger/LoggerFactory.ts:17](https://github.com/44x1carbon/gigantes/blob/2721068/src/util/logger/LoggerFactory.ts#L17)
 
 ## Methods
 
@@ -56,4 +56,4 @@ Name | Type |
 
 **Returns:** [*Logger*](logger.md)
 
-Defined in: [util/logger/LoggerFactory.ts:23](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/util/logger/LoggerFactory.ts#L23)
+Defined in: [util/logger/LoggerFactory.ts:23](https://github.com/44x1carbon/gigantes/blob/2721068/src/util/logger/LoggerFactory.ts#L23)

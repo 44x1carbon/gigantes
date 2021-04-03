@@ -39,7 +39,7 @@ Name | Type |
 
 **Returns:** [*RootDomSelector*](rootdomselector.md)
 
-Defined in: [selector/RootDomSelector.ts:9](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L9)
+Defined in: [selector/RootDomSelector.ts:9](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L9)
 
 ## Properties
 
@@ -47,7 +47,7 @@ Defined in: [selector/RootDomSelector.ts:9](https://github.com/44x1carbon/gigant
 
 • **whereQuery**: [*SelectQuery*](../types/selectquery.md)
 
-Defined in: [selector/RootDomSelector.ts:9](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L9)
+Defined in: [selector/RootDomSelector.ts:9](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L9)
 
 ## Methods
 
@@ -63,7 +63,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray2*](../types/nestarray2.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/RootDomSelector.ts:62](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L62)
+Defined in: [selector/RootDomSelector.ts:62](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L62)
 
 ___
 
@@ -73,7 +73,7 @@ ___
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/RootDomSelector.ts:15](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L15)
+Defined in: [selector/RootDomSelector.ts:15](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L15)
 
 ___
 
@@ -89,7 +89,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray2*](../types/nestarray2.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/RootDomSelector.ts:70](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L70)
+Defined in: [selector/RootDomSelector.ts:70](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L70)
 
 ___
 
@@ -105,7 +105,7 @@ Name | Type |
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/RootDomSelector.ts:21](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L21)
+Defined in: [selector/RootDomSelector.ts:21](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L21)
 
 ___
 
@@ -121,7 +121,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/RootDomSelector.ts:46](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L46)
+Defined in: [selector/RootDomSelector.ts:46](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L46)
 
 ___
 
@@ -138,7 +138,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/RootDomSelector.ts:35](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L35)
+Defined in: [selector/RootDomSelector.ts:35](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L35)
 
 ___
 
@@ -154,7 +154,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/RootDomSelector.ts:54](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L54)
+Defined in: [selector/RootDomSelector.ts:54](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L54)
 
 ___
 
@@ -164,4 +164,4 @@ ___
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/RootDomSelector.ts:27](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/RootDomSelector.ts#L27)
+Defined in: [selector/RootDomSelector.ts:27](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/RootDomSelector.ts#L27)

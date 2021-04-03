@@ -43,7 +43,7 @@ Name | Type |
 
 **Returns:** [*DomNode*](domnode.md)
 
-Defined in: [DomNode.ts:3](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L3)
+Defined in: [DomNode.ts:3](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L3)
 
 ## Properties
 
@@ -51,7 +51,7 @@ Defined in: [DomNode.ts:3](https://github.com/44x1carbon/gigantes/blob/89b5bd4/s
 
 • **cheerio**: Cheerio
 
-Defined in: [DomNode.ts:2](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L2)
+Defined in: [DomNode.ts:2](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L2)
 
 ___
 
@@ -59,7 +59,7 @@ ___
 
 • `Private` **root**: Root
 
-Defined in: [DomNode.ts:3](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L3)
+Defined in: [DomNode.ts:3](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L3)
 
 ## Accessors
 
@@ -69,7 +69,7 @@ Defined in: [DomNode.ts:3](https://github.com/44x1carbon/gigantes/blob/89b5bd4/s
 
 **Returns:** [*DomNode*](domnode.md)[]
 
-Defined in: [DomNode.ts:10](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L10)
+Defined in: [DomNode.ts:10](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L10)
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 **Returns:** *string*[]
 
-Defined in: [DomNode.ts:34](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L34)
+Defined in: [DomNode.ts:34](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L34)
 
 ___
 
@@ -89,7 +89,7 @@ ___
 
 **Returns:** [*DomNode*](domnode.md)[]
 
-Defined in: [DomNode.ts:18](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L18)
+Defined in: [DomNode.ts:18](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L18)
 
 ___
 
@@ -99,7 +99,7 @@ ___
 
 **Returns:** *string*
 
-Defined in: [DomNode.ts:41](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L41)
+Defined in: [DomNode.ts:41](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L41)
 
 ___
 
@@ -109,7 +109,7 @@ ___
 
 **Returns:** *string*
 
-Defined in: [DomNode.ts:45](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L45)
+Defined in: [DomNode.ts:45](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L45)
 
 ## Methods
 
@@ -125,7 +125,7 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: [DomNode.ts:26](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L26)
+Defined in: [DomNode.ts:26](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L26)
 
 ___
 
@@ -141,4 +141,4 @@ Name | Type |
 
 **Returns:** *string*
 
-Defined in: [DomNode.ts:30](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DomNode.ts#L30)
+Defined in: [DomNode.ts:30](https://github.com/44x1carbon/gigantes/blob/2721068/src/DomNode.ts#L30)

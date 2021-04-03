@@ -22,4 +22,4 @@ Name | Type |
 
 **Returns:** (`domNode`: [*DomNode*](../classes/domnode.md)) => R
 
-Defined in: [extract/ExtractOption.ts:20](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/extract/ExtractOption.ts#L20)
+Defined in: [extract/ExtractOption.ts:20](https://github.com/44x1carbon/gigantes/blob/2721068/src/extract/ExtractOption.ts#L20)

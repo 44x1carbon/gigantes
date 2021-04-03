@@ -46,7 +46,7 @@ Name | Type |
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/SingleDomSelector.ts:26](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L26)
+Defined in: [selector/SingleDomSelector.ts:26](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L26)
 
 ## Properties
 
@@ -54,7 +54,7 @@ Defined in: [selector/SingleDomSelector.ts:26](https://github.com/44x1carbon/gig
 
 • **parentElementSpec**: [*IdentityDomSelector*](identitydomselector.md) \| [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/SingleDomSelector.ts:24](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L24)
+Defined in: [selector/SingleDomSelector.ts:24](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L24)
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **prevElementSpec**: [*IdentityDomSelector*](identitydomselector.md) \| [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/SingleDomSelector.ts:25](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L25)
+Defined in: [selector/SingleDomSelector.ts:25](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L25)
 
 ___
 
@@ -70,7 +70,7 @@ ___
 
 • **takeFn**: [*TakeFunction*](../types/takefunction.md)<[*DomNode*](domnode.md)\>
 
-Defined in: [selector/SingleDomSelector.ts:26](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L26)
+Defined in: [selector/SingleDomSelector.ts:26](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L26)
 
 ___
 
@@ -78,7 +78,7 @@ ___
 
 • **whereQuery**: [*SelectQuery*](../types/selectquery.md)
 
-Defined in: [selector/SingleDomSelector.ts:23](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L23)
+Defined in: [selector/SingleDomSelector.ts:23](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L23)
 
 ## Methods
 
@@ -94,7 +94,7 @@ Name | Type |
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/SingleDomSelector.ts:95](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L95)
+Defined in: [selector/SingleDomSelector.ts:95](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L95)
 
 ___
 
@@ -117,7 +117,7 @@ Name | Type |
 
 **Returns:** (`parent`: [*DomNode*](domnode.md)) => T
 
-Defined in: [selector/SingleDomSelector.ts:209](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L209)
+Defined in: [selector/SingleDomSelector.ts:209](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L209)
 
 ___
 
@@ -139,7 +139,7 @@ Name | Type |
 
 **Returns:** (`parent`: [*DomNode*](domnode.md)) => T
 
-Defined in: [selector/SingleDomSelector.ts:223](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L223)
+Defined in: [selector/SingleDomSelector.ts:223](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L223)
 
 ___
 
@@ -149,7 +149,7 @@ ___
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/SingleDomSelector.ts:32](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L32)
+Defined in: [selector/SingleDomSelector.ts:32](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L32)
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 **Returns:** (`body`: [*DomNode*](domnode.md)) => [*DomNode*](domnode.md)
 
-Defined in: [selector/SingleDomSelector.ts:107](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L107)
+Defined in: [selector/SingleDomSelector.ts:107](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L107)
 
 ___
 
@@ -175,7 +175,7 @@ Name | Type |
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/SingleDomSelector.ts:101](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L101)
+Defined in: [selector/SingleDomSelector.ts:101](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L101)
 
 ___
 
@@ -191,7 +191,7 @@ Name | Type |
 
 **Returns:** [*SingleDomSelector*](singledomselector.md)
 
-Defined in: [selector/SingleDomSelector.ts:40](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L40)
+Defined in: [selector/SingleDomSelector.ts:40](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L40)
 
 ___
 
@@ -207,7 +207,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/SingleDomSelector.ts:83](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L83)
+Defined in: [selector/SingleDomSelector.ts:83](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L83)
 
 ___
 
@@ -223,7 +223,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/SingleDomSelector.ts:67](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L67)
+Defined in: [selector/SingleDomSelector.ts:67](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L67)
 
 ___
 
@@ -240,7 +240,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/SingleDomSelector.ts:56](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L56)
+Defined in: [selector/SingleDomSelector.ts:56](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L56)
 
 ___
 
@@ -256,7 +256,7 @@ Name | Type |
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/SingleDomSelector.ts:75](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L75)
+Defined in: [selector/SingleDomSelector.ts:75](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L75)
 
 ___
 
@@ -266,4 +266,4 @@ ___
 
 **Returns:** [*MultipleDomSelector*](multipledomselector.md)<[*NestArray1*](../types/nestarray1.md)<[*DomNode*](domnode.md)\>\>
 
-Defined in: [selector/SingleDomSelector.ts:48](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/selector/SingleDomSelector.ts#L48)
+Defined in: [selector/SingleDomSelector.ts:48](https://github.com/44x1carbon/gigantes/blob/2721068/src/selector/SingleDomSelector.ts#L48)

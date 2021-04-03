@@ -14,4 +14,4 @@ Name | Type |
 
 **Returns:** [*Operator*](../interfaces/operator.md)
 
-Defined in: [query/WhereQuery.ts:12](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/WhereQuery.ts#L12)
+Defined in: [query/WhereQuery.ts:12](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/WhereQuery.ts#L12)

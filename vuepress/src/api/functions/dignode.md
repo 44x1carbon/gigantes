@@ -15,4 +15,4 @@ Name | Type |
 
 **Returns:** [*DomNode*](../classes/domnode.md)[]
 
-Defined in: [DigNode.ts:4](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/DigNode.ts#L4)
+Defined in: [DigNode.ts:4](https://github.com/44x1carbon/gigantes/blob/2721068/src/DigNode.ts#L4)

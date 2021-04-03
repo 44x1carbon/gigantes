@@ -43,7 +43,7 @@ Inherited from: [SetOperator](setoperator.md)
 
 Inherited from: [SetOperator](setoperator.md).[operators](setoperator.md#operators)
 
-Defined in: [query/Operator.ts:20](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L20)
+Defined in: [query/Operator.ts:20](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L20)
 
 ## Methods
 
@@ -61,7 +61,7 @@ Name | Type |
 
 Inherited from: [SetOperator](setoperator.md)
 
-Defined in: [query/Operator.ts:26](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L26)
+Defined in: [query/Operator.ts:26](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L26)
 
 ___
 
@@ -79,4 +79,4 @@ Name | Type |
 
 Overrides: [SetOperator](setoperator.md)
 
-Defined in: [query/Operator.ts:38](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L38)
+Defined in: [query/Operator.ts:38](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L38)

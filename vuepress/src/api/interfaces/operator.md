@@ -36,7 +36,7 @@ Name | Type |
 
 **Returns:** *void*
 
-Defined in: [query/Operator.ts:5](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L5)
+Defined in: [query/Operator.ts:5](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L5)
 
 ___
 
@@ -52,4 +52,4 @@ Name | Type |
 
 **Returns:** *boolean*
 
-Defined in: [query/Operator.ts:4](https://github.com/44x1carbon/gigantes/blob/89b5bd4/src/query/Operator.ts#L4)
+Defined in: [query/Operator.ts:4](https://github.com/44x1carbon/gigantes/blob/2721068/src/query/Operator.ts#L4)
