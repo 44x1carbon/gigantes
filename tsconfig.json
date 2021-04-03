@@ -5,7 +5,7 @@
       "removeComments": false,
       "sourceMap": true,
       "target": "es5",
-      "outDir": "dist",
+      "outDir": "vuepress/docs/src/.vuepress/dist",
       "skipLibCheck": true,
     },
     "include": [
