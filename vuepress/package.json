@@ -9,14 +9,14 @@
   },
   "repository": "/vuepress",
   "scripts": {
-    "dev": "vuepress dev",
-    "build": "vuepress build -d ../docs"
+    "dev": "vuepress dev src",
+    "build": "vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {
     "typedoc": "^0.20.34",
     "typedoc-plugin-markdown": "^3.6.0",
-    "vuepress": "^1.5.3",
+    "vuepress": "^1.8.2",
     "vuepress-plugin-typedoc": "^0.6.0"
   }
 }

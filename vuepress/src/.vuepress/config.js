@@ -10,7 +10,8 @@ module.exports = {
    */
   description: description,
 
-  base: "gigantes",
+  base: "/gigantes/",
+  dest: "../docs/",
 
   /**
    * Extra tags to be injected to the page HTML `<head>`
@@ -44,8 +45,6 @@ module.exports = {
   themeConfig: {
     repo: "44x1carbon/gigantes",
     editLinks: false,
-    docsDir: "",
-    editLinkText: "",
     lastUpdated: true,
     locales: {
       "/": {
