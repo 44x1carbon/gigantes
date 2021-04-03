@@ -1,0 +1,25 @@
+{
+  "name": "gigantes",
+  "version": "0.0.1",
+  "description": "Scraping Support Library",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\"",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "doc-gen": "typedoc"
+  },
+  "keywords": [
+    "scraping"
+  ],
+  "author": "Yoshihito Yamasaki <44x1carbon@gmail.com> (https://github.com/44x1carbon)",
+  "license": "ISC",
+  "dependencies": {
+    "@types/cheerio": "^0.22.28",
+    "cheerio-httpcli": "^0.8.1",
+    "pkg-dir": "^5.0.0"
+  },
+  "devDependencies": {
+    "typedoc": "^0.20.34"
+  }
+}

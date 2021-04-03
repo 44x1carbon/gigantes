@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ja-JP">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>DOM 要素を特定する | Gigantes</title>
+    <meta name="generator" content="VuePress 1.8.2">
+    
+    <meta name="description" content="">
+    <meta name="theme-color" content="#3eaf7c">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    
+    <link rel="preload" href="/assets/css/0.styles.94d29780.css" as="style"><link rel="preload" href="/assets/js/app.cba72188.js" as="script"><link rel="preload" href="/assets/js/2.2eef6676.js" as="script"><link rel="preload" href="/assets/js/78.e22a1a5f.js" as="script"><link rel="prefetch" href="/assets/js/10.d8afb869.js"><link rel="prefetch" href="/assets/js/11.4e26e0b4.js"><link rel="prefetch" href="/assets/js/12.32ab83ff.js"><link rel="prefetch" href="/assets/js/13.7b3866ac.js"><link rel="prefetch" href="/assets/js/14.4e8d8ca2.js"><link rel="prefetch" href="/assets/js/15.46b62e3d.js"><link rel="prefetch" href="/assets/js/16.5d1d5fd3.js"><link rel="prefetch" href="/assets/js/17.c9208a49.js"><link rel="prefetch" href="/assets/js/18.280bec27.js"><link rel="prefetch" href="/assets/js/19.80cc30c2.js"><link rel="prefetch" href="/assets/js/20.0f0fd2a4.js"><link rel="prefetch" href="/assets/js/21.edc78068.js"><link rel="prefetch" href="/assets/js/22.51d2e8bd.js"><link rel="prefetch" href="/assets/js/23.abfc1e9b.js"><link rel="prefetch" href="/assets/js/24.a7ce3a8c.js"><link rel="prefetch" href="/assets/js/25.812c2b88.js"><link rel="prefetch" href="/assets/js/26.6a7be94f.js"><link rel="prefetch" href="/assets/js/27.a268fa17.js"><link rel="prefetch" href="/assets/js/28.c8924f24.js"><link rel="prefetch" href="/assets/js/29.f17b6003.js"><link rel="prefetch" href="/assets/js/3.c5b1a599.js"><link rel="prefetch" href="/assets/js/30.bde40cd3.js"><link rel="prefetch" href="/assets/js/31.3efecd88.js"><link rel="prefetch" href="/assets/js/32.cb953d96.js"><link rel="prefetch" href="/assets/js/33.57375438.js"><link rel="prefetch" href="/assets/js/34.974f4cfb.js"><link rel="prefetch" href="/assets/js/35.96378e7b.js"><link rel="prefetch" href="/assets/js/36.4ab24b8d.js"><link rel="prefetch" href="/assets/js/37.a11c4c1b.js"><link rel="prefetch" href="/assets/js/38.513c03d2.js"><link rel="prefetch" href="/assets/js/39.28989570.js"><link rel="prefetch" href="/assets/js/4.4d31d94d.js"><link rel="prefetch" href="/assets/js/40.1799f363.js"><link rel="prefetch" href="/assets/js/41.14892a32.js"><link rel="prefetch" href="/assets/js/42.4c64396c.js"><link rel="prefetch" href="/assets/js/43.5580f0ee.js"><link rel="prefetch" href="/assets/js/44.9cae04a0.js"><link rel="prefetch" href="/assets/js/45.004b8da3.js"><link rel="prefetch" href="/assets/js/46.8025e787.js"><link rel="prefetch" href="/assets/js/47.c30eef4b.js"><link rel="prefetch" href="/assets/js/48.43f8154b.js"><link rel="prefetch" href="/assets/js/49.7ad73d82.js"><link rel="prefetch" href="/assets/js/5.4e7a2df9.js"><link rel="prefetch" href="/assets/js/50.dca6e1b7.js"><link rel="prefetch" href="/assets/js/51.0225b304.js"><link rel="prefetch" href="/assets/js/52.1ea91158.js"><link rel="prefetch" href="/assets/js/53.7fcc7729.js"><link rel="prefetch" href="/assets/js/54.1bccaeba.js"><link rel="prefetch" href="/assets/js/55.58878778.js"><link rel="prefetch" href="/assets/js/56.b6d2df80.js"><link rel="prefetch" href="/assets/js/57.33e6086b.js"><link rel="prefetch" href="/assets/js/58.53b8ce1c.js"><link rel="prefetch" href="/assets/js/59.937e0190.js"><link rel="prefetch" href="/assets/js/6.498ab014.js"><link rel="prefetch" href="/assets/js/60.b4f62470.js"><link rel="prefetch" href="/assets/js/61.93da337c.js"><link rel="prefetch" href="/assets/js/62.b316e6b4.js"><link rel="prefetch" href="/assets/js/63.ebec9f88.js"><link rel="prefetch" href="/assets/js/64.9179ce9d.js"><link rel="prefetch" href="/assets/js/65.a086fbfe.js"><link rel="prefetch" href="/assets/js/66.a0c78b80.js"><link rel="prefetch" href="/assets/js/67.c04619f7.js"><link rel="prefetch" href="/assets/js/68.4a26aace.js"><link rel="prefetch" href="/assets/js/69.244a30cd.js"><link rel="prefetch" href="/assets/js/7.7e550121.js"><link rel="prefetch" href="/assets/js/70.d0e1fa8c.js"><link rel="prefetch" href="/assets/js/71.a0eee44f.js"><link rel="prefetch" href="/assets/js/72.6d711bb3.js"><link rel="prefetch" href="/assets/js/73.07f7952d.js"><link rel="prefetch" href="/assets/js/74.5445824d.js"><link rel="prefetch" href="/assets/js/75.293e49bd.js"><link rel="prefetch" href="/assets/js/76.458eafd4.js"><link rel="prefetch" href="/assets/js/77.9bf072e2.js"><link rel="prefetch" href="/assets/js/79.0487c99b.js"><link rel="prefetch" href="/assets/js/8.e9bdc92a.js"><link rel="prefetch" href="/assets/js/9.b751af4a.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.94d29780.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><!----> <span class="site-name">Gigantes</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  ガイド
+</a></div><div class="nav-item"><a href="/api/" class="nav-link">
+  API
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/selector.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  ja-JP
+</a></li><li class="dropdown-item"><!----> <a href="/en/guide/selector.html" class="nav-link">
+  en-US
+</a></li></ul></div></div> <a href="https://github.com/44x1carbon/gigantes" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/guide/" class="nav-link router-link-active">
+  ガイド
+</a></div><div class="nav-item"><a href="/api/" class="nav-link">
+  API
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="Select language" class="dropdown-title"><span class="title">Languages</span> <span class="arrow down"></span></button> <button type="button" aria-label="Select language" class="mobile-dropdown-title"><span class="title">Languages</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/guide/selector.html" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  ja-JP
+</a></li><li class="dropdown-item"><!----> <a href="/en/guide/selector.html" class="nav-link">
+  en-US
+</a></li></ul></div></div> <a href="https://github.com/44x1carbon/gigantes" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><a href="/guide/" class="sidebar-heading clickable router-link-active open"><span>ガイド</span> <span class="arrow down"></span></a> <ul class="sidebar-links sidebar-group-items"><li><a href="/guide/" aria-current="page" class="sidebar-link">はじめに</a></li><li><a href="/guide/selector.html" aria-current="page" class="active sidebar-link">DOM 要素を特定する</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/guide/selector.html#要素を特定する条件を指定する" class="sidebar-link">要素を特定する条件を指定する</a></li><li class="sidebar-sub-header"><a href="/guide/selector.html#複数の条件を組み合わせる" class="sidebar-link">複数の条件を組み合わせる</a></li><li class="sidebar-sub-header"><a href="/guide/selector.html#取得する範囲を指定する" class="sidebar-link">取得する範囲を指定する</a></li><li class="sidebar-sub-header"><a href="/guide/selector.html#子要素や兄弟要素を指定する" class="sidebar-link">子要素や兄弟要素を指定する</a></li><li class="sidebar-sub-header"><a href="/guide/selector.html#domselector-の種類" class="sidebar-link">DomSelector の種類</a></li></ul></li><li><a href="/guide/extract.html" class="sidebar-link">情報を抽出する</a></li><li><a href="/guide/advanced.html" class="sidebar-link">高度な使い方</a></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="dom-要素を特定する"><a href="#dom-要素を特定する" class="header-anchor">#</a> DOM 要素を特定する</h1> <h2 id="要素を特定する条件を指定する"><a href="#要素を特定する条件を指定する" class="header-anchor">#</a> 要素を特定する条件を指定する</h2> <p>SelectQuery を使って情報を抽出したい DOM 要素を特定します。
+キーにはタグ名・クラス名・属性名、値には条件を書きます。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> selector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tagName<span class="token operator">:</span> <span class="token punctuation">{</span>
+    eq<span class="token operator">:</span> <span class="token string">&quot;h1&quot;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token keyword">class</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    like<span class="token operator">:</span> <span class="token string">&quot;blue&quot;</span>
+  <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  id<span class="token operator">:</span> <span class="token punctuation">{</span>
+      <span class="token keyword">in</span><span class="token operator">:</span> <span class="token punctuation">[</span> <span class="token string">&quot;hoge&quot;</span><span class="token punctuation">,</span> <span class="token string">&quot;fuga&quot;</span> <span class="token punctuation">]</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><table><thead><tr><th style="text-align:left;">条件名</th> <th style="text-align:left;"></th> <th>指定できる値</th></tr></thead> <tbody><tr><td style="text-align:left;">eq</td> <td style="text-align:left;">指定した値に一致した場合</td> <td>string</td></tr> <tr><td style="text-align:left;">neq</td> <td style="text-align:left;">指定した値に一致しない場合</td> <td>string</td></tr> <tr><td style="text-align:left;">like</td> <td style="text-align:left;">指定した値が含まれている場合</td> <td>string | regex</td></tr> <tr><td style="text-align:left;">nlike</td> <td style="text-align:left;">指定した値が含まれていない場合</td> <td>string | regex</td></tr> <tr><td style="text-align:left;">in</td> <td style="text-align:left;">指定した値のどれかに一致した場合</td> <td>string[]</td></tr> <tr><td style="text-align:left;">nin</td> <td style="text-align:left;">指定した値のどれにも一致しない場合</td> <td>tring[]</td></tr></tbody></table> <h2 id="複数の条件を組み合わせる"><a href="#複数の条件を組み合わせる" class="header-anchor">#</a> 複数の条件を組み合わせる</h2> <p>and や or を使って複数の条件を組み合わせる事ができます。</p> <h3 id="and"><a href="#and" class="header-anchor">#</a> and</h3> <p>and では指定した全ての条件に一致する DOM 要素のみ取得できます。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> selector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  and<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      tagName<span class="token operator">:</span> <span class="token punctuation">{</span>
+        eq<span class="token operator">:</span> <span class="token string">&quot;h1&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      <span class="token keyword">class</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        like<span class="token operator">:</span> <span class="token string">&quot;blue&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="or"><a href="#or" class="header-anchor">#</a> or</h3> <p>or では指定したいずれかの条件に一致する DOM 要素のみ取得できます。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> selector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  or<span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      tagName<span class="token operator">:</span> <span class="token punctuation">{</span>
+        eq<span class="token operator">:</span> <span class="token string">&quot;h1&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">{</span>
+      <span class="token keyword">class</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        like<span class="token operator">:</span> <span class="token string">&quot;blue&quot;</span><span class="token punctuation">,</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+  <span class="token punctuation">]</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="取得する範囲を指定する"><a href="#取得する範囲を指定する" class="header-anchor">#</a> 取得する範囲を指定する</h2> <p>DomSelector のメソッドを呼び出し取得する範囲を指定する事ができます。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> selector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tagName<span class="token operator">:</span> <span class="token punctuation">{</span>
+    eq<span class="token operator">:</span> <span class="token string">&quot;h1&quot;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">first</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><table><thead><tr><th style="text-align:left;">メソッド名</th> <th style="text-align:left;"></th></tr></thead> <tbody><tr><td style="text-align:left;">first()</td> <td style="text-align:left;">最初の 1 要素を取得します。</td></tr> <tr><td style="text-align:left;">nth(n)</td> <td style="text-align:left;">n 番目の要素を取得します。(0 始まり)</td></tr> <tr><td style="text-align:left;">takeAll()</td> <td style="text-align:left;">全ての要素を取得します。</td></tr> <tr><td style="text-align:left;">take(n)</td> <td style="text-align:left;">先頭から n 個の要素を取得します。(0 始まり)</td></tr> <tr><td style="text-align:left;">skip(n)</td> <td style="text-align:left;">先頭から n 個を除いた全ての要素を取得します。</td></tr> <tr><td style="text-align:left;">skipAndTake(n, m)</td> <td style="text-align:left;">n 番目 ~ m 番目の要素を取得します。</td></tr></tbody></table> <h2 id="子要素や兄弟要素を指定する"><a href="#子要素や兄弟要素を指定する" class="header-anchor">#</a> 子要素や兄弟要素を指定する</h2> <p>定義した DomSelector の child や next メソッドを呼び出す事で子要素や兄弟要素を指定する事ができます。</p> <h3 id="子要素を指定する"><a href="#子要素を指定する" class="header-anchor">#</a> 子要素を指定する</h3> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> parentSelector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token keyword">class</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    eq<span class="token operator">:</span> <span class="token string">&quot;parent&quot;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">first</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> childSelector <span class="token operator">=</span> parentSelector<span class="token punctuation">.</span><span class="token function">child</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token keyword">class</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        eq<span class="token operator">:</span> <span class="token string">&quot;child&quot;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h3 id="兄弟要素を指定する"><a href="#兄弟要素を指定する" class="header-anchor">#</a> 兄弟要素を指定する</h3> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> prevSelector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  <span class="token keyword">class</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+    eq<span class="token operator">:</span> <span class="token string">&quot;prev&quot;</span><span class="token punctuation">;</span>
+  <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">first</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> nextSelector <span class="token operator">=</span> parentSelector<span class="token punctuation">.</span><span class="token function">next</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+    <span class="token keyword">class</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        eq<span class="token operator">:</span> <span class="token string">&quot;next&quot;</span>
+    <span class="token punctuation">}</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h2 id="domselector-の種類"><a href="#domselector-の種類" class="header-anchor">#</a> DomSelector の種類</h2> <h3 id="基本的な-domselector"><a href="#基本的な-domselector" class="header-anchor">#</a> 基本的な DomSelector</h3> <h4 id="singledomselector"><a href="#singledomselector" class="header-anchor">#</a> SingleDomSelector</h4> <p>単一の Dom 要素を返す DomSelector です。
+extract や extractObject を呼び出した場合は単一の値を返します。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> h1SingleSelector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tagName<span class="token operator">:</span> <span class="token punctuation">{</span> eq<span class="token operator">:</span> <span class="token string">&quot;h1&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">first</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> h1SingleText <span class="token operator">=</span> h1SingleSelector<span class="token punctuation">.</span><span class="token function">extract</span><span class="token punctuation">(</span><span class="token punctuation">(</span>domNode<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> domNode<span class="token punctuation">.</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token string">&quot;https://xxxxx.xxx&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">extractBody</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  h1Text<span class="token operator">:</span> h1SingleText<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// { h1Text: 'Hoge' }</span>
+</code></pre></div><h4 id="multipledomselector"><a href="#multipledomselector" class="header-anchor">#</a> MultipleDomSelector</h4> <p>複数の Dom 要素を返す DomSelector です。
+extract や extractObject を呼び出した場合は複数の値を配列形式で返します。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> h1MultipleSelector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  tagName<span class="token operator">:</span> <span class="token punctuation">{</span> eq<span class="token operator">:</span> <span class="token string">&quot;h1&quot;</span> <span class="token punctuation">}</span><span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">takeAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> h1MultipleText <span class="token operator">=</span> h1MultipleSelector<span class="token punctuation">.</span><span class="token function">extract</span><span class="token punctuation">(</span><span class="token punctuation">(</span>domNode<span class="token punctuation">)</span> <span class="token operator">=&gt;</span> domNode<span class="token punctuation">.</span>text<span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> result <span class="token operator">=</span> <span class="token function">run</span><span class="token punctuation">(</span><span class="token string">&quot;https://xxxxx.xxx&quot;</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">extractBody</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+  h1Text<span class="token operator">:</span> h1MultipleText<span class="token punctuation">,</span>
+<span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token builtin">console</span><span class="token punctuation">.</span><span class="token function">log</span><span class="token punctuation">(</span>result<span class="token punctuation">)</span><span class="token punctuation">;</span> <span class="token comment">// [ { h1Text: 'Hoge' }, { h1Text: 'Fuga' } ]</span>
+</code></pre></div><h3 id="特殊な-domselector"><a href="#特殊な-domselector" class="header-anchor">#</a> 特殊な DomSelector</h3> <h4 id="rootdomselector"><a href="#rootdomselector" class="header-anchor">#</a> RootDomSelector</h4> <p>domSelector メソッドの戻り値として使われる DomSelector
+その後呼び出すメソッドにより SingleDomSelector か MultipleDomSelector に変換されます。</p> <div class="language-typescript extra-class"><pre class="language-typescript"><code><span class="token keyword">const</span> rootDomSelector <span class="token operator">=</span> <span class="token function">domSelector</span><span class="token punctuation">(</span><span class="token punctuation">{</span><span class="token operator">...</span><span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> singleDomSelector <span class="token operator">=</span> rootDomSelector<span class="token punctuation">.</span><span class="token function">first</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+
+<span class="token keyword">const</span> multipleDomSelector <span class="token operator">=</span> rootDomSelector<span class="token punctuation">.</span><span class="token function">takeAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><h4 id="identitydomselector"><a href="#identitydomselector" class="header-anchor">#</a> IdentityDomSelector</h4> <p>TBD</p> <h4 id="mapdomselector"><a href="#mapdomselector" class="header-anchor">#</a> MapDomSelector</h4> <p>TBD</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/guide/" class="prev router-link-active">
+        はじめに
+      </a></span> <span class="next"><a href="/guide/extract.html">
+        情報を抽出する
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.cba72188.js" defer></script><script src="/assets/js/2.2eef6676.js" defer></script><script src="/assets/js/78.e22a1a5f.js" defer></script>
+  </body>
+</html>
