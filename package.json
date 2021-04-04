@@ -1,6 +1,6 @@
 {
   "name": "gigantes",
-  "version": "0.0.1",
+  "version": "0.0.5",
   "description": "Scraping Support Library",
   "main": "dist/index.js",
   "scripts": {
